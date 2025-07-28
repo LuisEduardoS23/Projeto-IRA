@@ -1,0 +1,30 @@
+body{
+    background-color: thistle;
+}
+
+
+.titulo{
+    text-align: center;
+    color: indigo;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+button{
+    background-color:indigo;
+    color: white;
+}
+
+.entradaDeDados{
+    color: indigo;
+    display: block;
+    margin-top: 5%;
+    text-align: center;
+}
+
+p{
+    font-size:x-large;
+    color: indigo;
+    text-align: center;
+    margin-top: 5%;
+}

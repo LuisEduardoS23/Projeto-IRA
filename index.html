@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de IRA</title>
+</head>
+<body>
+
+    <h1 class="titulo">Calcule o seu Índice de Rendimento Acadêmico</h1>
+
+    <div class="entradaDeDados">
+        <label for="numDisciplinas">Número de Disciplinas Concluídas</label>
+        <input id = "numDisciplinas" type="number">
+        <button onclick="gerarCampos()">Confirmar</button>
+    </div>
+
+    <form id="dadosMaterias"></form>
+
+    <div class = "entradaDeDados">
+        <button onclick="calcularIRA()">Calcular IRA</button>
+    </div>
+
+    <p id = "resposta"></p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
